@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import logo from './logo.png'
+
 const Wrapper = styled.header`
   justify-content: space-between;
   flex-direction: row;
@@ -8,6 +10,10 @@ const Wrapper = styled.header`
   display: flex;  
   height: 100px;
   width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,1);
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,1);
 `
 
 const Logo = styled.div`
@@ -39,8 +45,8 @@ const Item = styled.a`
   text-decoration: none;
   font-weight: 400;
   font-size: 20px;
-  font-size: 12px;
-  color: #222222;
+  font-size: 13px;
+  color: #d6d6d6;
 
   ${ItemContainer}:hover & {
     color: #FD80B1;
@@ -66,7 +72,7 @@ export default function Header() {
     <Wrapper>
       <Logo>
         <a href='http://localhost:3000/'>
-          <img src='https://21g6p436jemo16mo9n1a25yq-wpengine.netdna-ssl.com/v1/wp-content/uploads/sites/36/2015/05/oshine-logo-black.png' alt='logo' />
+          <img src={logo} alt='logo'/>
         </a>
       </Logo>
       <div>

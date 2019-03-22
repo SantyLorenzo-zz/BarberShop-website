@@ -14,7 +14,7 @@ const Wrapper = styled.section`
 const SubTitleLight = styled.p`
   font-weight: 400;
   font-size: 20px;
-  color: #222222;
+  color: #d6d6d6;
   letter-spacing: 5px;  
   vertical-align: baseline;
 `
@@ -23,28 +23,28 @@ const SubTitleItalic = styled.p`
   font-style: italic;
   font-weight: 400;
   font-size: 30px;
-  color: #222222;
+  color: #d6d6d6;
   word-spacing: 3px;
 `
 const Title = styled.div`
-  border: 6px solid black;
+  border: 6px solid #d6d6d6;
   justify-content: center;
   letter-spacing: 7px;
   align-items: center;
   font-weight: 700;
   font-size: 50px;
   display: flex;
-  width: 313px;
   height: 90px;
-  color: black;
+  color: #d6d6d6;
+  padding: 0 40px;
 `
 
 export default function theTitle() {
   return(
     <Wrapper>
-      <SubTitleLight className="animated fadeInDown">MAKING THE WEB</SubTitleLight>
-      <Title className="animated fadeInUp">STYLISH</Title>
-      <SubTitleItalic className="animated fadeInDown">The Best Or Nothing</SubTitleItalic>
+      <SubTitleLight className="animated fadeInDown delay-1s">TRUE BARBERS</SubTitleLight>
+      <Title className="animated fadeInUp ">STYLISH</Title>
+      <SubTitleItalic className="animated fadeInDown delay-1s">The Best Or Nothing</SubTitleItalic>
     </Wrapper>
   )
 }
