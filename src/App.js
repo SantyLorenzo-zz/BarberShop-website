@@ -6,11 +6,11 @@ import Header from './InicialPage/Header'
 
 const Wrapper = styled.div`
   width: 100%;
-  height: 100vh; 
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 `
 const TitleContainer = styled.div`
-  width: 100%;
-  height: 772px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,8 +18,8 @@ const TitleContainer = styled.div`
 export default function App() {
   return (
     <Wrapper>
-      <Header/>
-      <TitleContainer>
+      <Header style={{ display: 'flex', flexGrow: '1'}}/>
+      <TitleContainer style={{ display: 'flex', flexGrow: '2'}}>
         <Card />
       </TitleContainer>
     </Wrapper>
