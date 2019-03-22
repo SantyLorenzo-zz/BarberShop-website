@@ -101,13 +101,13 @@ export default function Header() {
       </div>
       <IconsContainer>
         <Icon>
-          <Item href='http://localhost:3000/'><i class="fab fa-instagram fa-2x"></i></Item>
+          <Item href='http://localhost:3000/'><i className="fab fa-instagram fa-2x"></i></Item>
         </Icon>
         <Icon>
-          <Item href='http://localhost:3000/'><i class="fab fa-github fa-2x"></i></Item>
+          <Item href='http://localhost:3000/'><i className="fab fa-github fa-2x"></i></Item>
         </Icon>
         <Icon>
-          <Item href='http://localhost:3000/'><i class="fab fa-facebook fa-2x"></i></Item>
+          <Item href='http://localhost:3000/'><i className="fab fa-facebook fa-2x"></i></Item>
         </Icon>
       </IconsContainer>
     </Wrapper>

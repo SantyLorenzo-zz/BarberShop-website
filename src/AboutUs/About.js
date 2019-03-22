@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 import DescriptionSection from './Description'
-import { Card1, Card2 } from './Cards'
+import Images from './Images'
 import texture from './texture.png'
 
 
@@ -19,11 +19,19 @@ const Wrapper = styled.div`
 `
 
 const CardsContainer = styled.div`
-  width: 1300px;
+  width: 900px;
+  height: 500px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+`
+const Borders = styled.div `
+  width: 804px;
+  height: 454px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
 `
 
 export default function About() {
@@ -31,8 +39,9 @@ export default function About() {
     <Wrapper>
       <DescriptionSection />
       <CardsContainer>
-        <Card1 />
-        <Card2 />
+        <Borders>
+          <Images />
+        </Borders>
       </CardsContainer>
     </Wrapper>
   )
