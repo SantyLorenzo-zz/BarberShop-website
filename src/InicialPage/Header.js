@@ -6,7 +6,7 @@ const Wrapper = styled.header`
   flex-direction: row;
   align-items: center;
   display: flex;  
-  height: 100px;
+  height: 10vh;
   width: 100%;
 `
 
