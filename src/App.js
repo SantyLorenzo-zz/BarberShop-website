@@ -12,14 +12,15 @@ const Wrapper = styled.div`
 `
 const TitleContainer = styled.div`
   display: flex;
+  flex-grow: 1;
   justify-content: center;
   align-items: center;
 `
 export default function App() {
   return (
     <Wrapper>
-      <Header style={{ display: 'flex', flexGrow: '1'}}/>
-      <TitleContainer style={{ display: 'flex', flexGrow: '2'}}>
+      <Header/>
+      <TitleContainer>
         <Card />
       </TitleContainer>
     </Wrapper>
