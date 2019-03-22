@@ -11,12 +11,13 @@ const slides = [
 ]
 
 const MyImg = styled(animated.div)`
-  width: 800px;
-  height: 450px;
+  width: 40%;
+  height: 45%;
   background-size: cover;
   background-position: center;
   will-change: opacity;
   position: absolute;
+  border: 1px solid black;
 `
 
 const Images = () => {

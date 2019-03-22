@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Wrapper = styled.div`
+export const Wrapper = styled.div`
   width: 50%;
   height: 350px;
   display: flex;
@@ -9,9 +9,9 @@ const Wrapper = styled.div`
   justify-content: space-between;
   text-align: center;
   align-items: center;
-  margin-top: 45px;
+  margin-top: 40px;
 `
-const Title = styled.h2`
+export const Title = styled.h2`
   width: 400px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -20,27 +20,27 @@ const Title = styled.h2`
   letter-spacing: 5px;
   border-bottom: 1px solid #222222;
 `
-const SubTitle = styled.span`
+export const SubTitle = styled.span`
   font-family: 'Crimson Text', serif;
   font-style: italic;
   font-weight: 400;
   font-size: 25px;
   color: #424141;
 `
-const Line = styled.span`
+export const Line = styled.span`
   width: 30px;
   height: 1px;
   border-bottom: 1px solid #d6d6d6;
-  margin: 0 10px;
+  margin: 0 20px;
 `
-const LinesContainer = styled.div`
+export const LinesContainer = styled.div`
   width:100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 `
-const Square = styled.i`
+export const Square = styled.i`
   transform: rotate(45deg);
   color: #e0a240;
 ` 

@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 import Home from './Home/Home'
 import About from './AboutUs/About'
+import OurWork from './OurWork/OurWork'
 
 
 
@@ -14,8 +15,9 @@ const Wrapper = styled.div`
 export default function App() {
   return (
     <Wrapper>
-      <Home/>
+      <Home />
       <About />
+      <OurWork />
     </Wrapper>
   )
 }

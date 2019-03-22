@@ -17,31 +17,19 @@ const Wrapper = styled.div`
   background: url(${texture});
   background-repeat: repeat;
 `
-
 const CardsContainer = styled.div`
-  width: 900px;
-  height: 500px;
+  width: 100%;
+  height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 `
-const Borders = styled.div `
-  width: 804px;
-  height: 454px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid black;
-`
-
 export default function About() {
   return (
     <Wrapper>
       <DescriptionSection />
       <CardsContainer>
-        <Borders>
-          <Images />
-        </Borders>
+        <Images />
       </CardsContainer>
     </Wrapper>
   )
