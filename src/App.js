@@ -10,7 +10,7 @@ const Wrapper = styled.div`
 `
 const TitleContainer = styled.div`
   width: 100%;
-  height: 90vh;
+  height: 772px;
   display: flex;
   justify-content: center;
   align-items: center;

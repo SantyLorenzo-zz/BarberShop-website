@@ -1,6 +1,6 @@
 .card {
-  width: 100ch;
-  height: 45ch;
+  width: 750px;
+  height: 400px;
   border-radius: 15px;
   transition: box-shadow 0.5s;
   will-change: transform;

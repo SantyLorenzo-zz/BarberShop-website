@@ -6,7 +6,7 @@ const Wrapper = styled.header`
   flex-direction: row;
   align-items: center;
   display: flex;  
-  height: 10vh;
+  height: 100px;
   width: 100%;
 `
 
@@ -32,6 +32,8 @@ const Icon = styled.div`
   justify-content: center;
   align-items: center;
 `
+
+
 const Item = styled.a`
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
