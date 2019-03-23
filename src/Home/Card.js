@@ -5,8 +5,8 @@ import styled from 'styled-components'
 import Title from './Title'
 
 const CardComponent = styled(animated.div)`
-  width: 35%;
-  height: 50%;
+  width: 800px;
+  height: 430px;
   border-radius: 15px;
   transition: box-shadow 0.5s;
   will-change: transform;
