@@ -34,9 +34,11 @@ export default function App() {
       <OurWork />
       <Space id='Location' />
       <Location />
+      <Space id='Contact'/>
+      <Space />
+      <Contact />
       <Space />
       <Space />
-      {/* <Contact /> */}
       <Footer />
     </Wrapper>
   )

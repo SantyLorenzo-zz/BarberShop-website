@@ -86,7 +86,7 @@ export default function Header() {
             <Item href='#Location'>LOCATION</Item>
           </ItemContainer>
           <ItemContainer>
-            <Item href='http://localhost:3000/'>CONTACT</Item>
+            <Item href='#Contact'>CONTACT</Item>
           </ItemContainer>
         </Menu>
       </div>

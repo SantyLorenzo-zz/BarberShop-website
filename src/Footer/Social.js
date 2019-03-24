@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { Title } from '../AboutUs/Description'
 
 const Wrapper = styled.div`
-  width: 600px;
+  width: 400px;
   height: 300px;
   display: flex;
   flex-direction: column;
@@ -15,8 +15,8 @@ const MyTitle = styled(Title)`
   height: 34px;
   font-size: 25px;
   text-align: center;
-  color: #d6d6d6;
-  border-bottom: 1px solid #d6d6d6;
+  color: black;
+  border-bottom: 1px solid black;
 `
 const Container = styled.div`
   width: 90%;
@@ -44,7 +44,7 @@ const IconContainer = styled.a`
     background-color: #e0a240;
   }
   &:hover ${Icon}{
-    color: #d6d6d6;
+    color: white;
   }
 `
 

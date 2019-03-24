@@ -6,7 +6,7 @@ import { ImgContainer, Img } from '../OurWork/Images'
 
 const Wrapper = styled.div`
   margin: 50px 0;
-  width: 600px;
+  width: 400px;
   height: 300px;
   display: flex;
   flex-direction: column;
@@ -17,8 +17,8 @@ const MyTitle = styled(Title)`
   width: 350px;
   height: 34px;
   text-align: center;
-  color: #d6d6d6;
-  border-bottom: 1px solid #d6d6d6;
+  color: black;
+  border-bottom: 1px solid black;
 `
 const MyImg = styled(Img)`
   width: 85px;

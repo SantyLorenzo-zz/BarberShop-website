@@ -6,7 +6,7 @@ import { Item } from '../Home/Header'
 
 const Wrapper = styled.div`
   margin: 30px 0;
-  width: 600px;
+  width: 400px;
   height: 250px;
   display: flex;
   flex-direction: column;
@@ -18,8 +18,8 @@ const MyTitle = styled(Title)`
   height: 34px;
   font-size: 25px;
   text-align: center;
-  color: #d6d6d6;
-  border-bottom: 1px solid #d6d6d6;
+  color: black;
+  border-bottom: 1px solid black;
 `
 const LinkContainer = styled.div`
   width: 100px;
@@ -33,31 +33,31 @@ export default function Links() {
     <Wrapper>
       <MyTitle>LINKS</MyTitle>
       <LinkContainer>
-        <Item href='#Home'>
+        <Item style={{ color: 'black' }} href='#Home'>
           <i style={{ marginRight: '5px', color: '#e0a240' }} class="fas fa-chevron-right" />
           HOME
         </Item>
       </LinkContainer>
       <LinkContainer>
-        <Item href='#About'>
+        <Item style={{ color: 'black' }} href='#About'>
           <i style={{ marginRight: '5px', color: '#e0a240' }} class="fas fa-chevron-right" />
           ABOUT
         </Item>
       </LinkContainer>
       <LinkContainer>
-        <Item href='#work'>
+        <Item style={{ color: 'black' }} href='#work'>
           <i style={{ marginRight: '5px', color: '#e0a240' }} class="fas fa-chevron-right" />
           WORK
         </Item>
       </LinkContainer>
       <LinkContainer>
-        <Item href='#Location'>
+        <Item style={{ color: 'black' }} href='#Location'>
           <i style={{ marginRight: '5px', color: '#e0a240' }} class="fas fa-chevron-right" />
           LOCATION
         </Item>
       </LinkContainer>
       <LinkContainer>
-        <Item href='http://localhost:3000/'>
+        <Item style={{ color: 'black' }} href='http://localhost:3000/'>
           <i style={{ marginRight: '5px', color: '#e0a240' }} class="fas fa-chevron-right" />
           CONTACT
         </Item>
