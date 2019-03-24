@@ -18,12 +18,12 @@ export default function DescriptionSection() {
   return (
     <Wrapper>
       <Title>OUR WORK</Title>
-      <SubTitle>Beautiful haircuts with up to day styles</SubTitle>
       <LinesContainer>
         <Line />
         <Square className="fas fa-square-full" />
         <Line />
       </LinesContainer>
+      <SubTitle>Beautiful haircuts with up to day styles</SubTitle>
     </Wrapper>
   )
 }

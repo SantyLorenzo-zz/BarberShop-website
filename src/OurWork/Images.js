@@ -20,6 +20,7 @@ const Img = styled.div`
   margin: 15px;
   background-size: cover;
   background-position: center;
+  border: 1px solid black;
 `
 
 export default function About() {

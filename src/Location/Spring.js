@@ -4,15 +4,15 @@ import styled from 'styled-components'
 
 
  export const slides = [
-  { id: 0, url: 'photo-1532710093739-9470acff878f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9' },
-  { id: 1, url: 'photo-1546665291-dbef6ab58991?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9' },
-  { id: 2, url: 'photo-1549271568-e87e07c5406b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9' },
-  { id: 3, url: 'photo-1520345376710-1662a32db252?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9' },
+  { id: 0, url: 'photo-1464869372688-a93d806be852?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9' },
+  { id: 1, url: 'photo-1462850932907-687c915e3d38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9' },
+  { id: 2, url: 'photo-1464869372688-a93d806be852?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9' },
+  { id: 3, url: 'photo-1462850932907-687c915e3d38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9' },
 ]
 
 const MyImg = styled(animated.div)`
-  width: 40%;
-  height: 45%;
+  width: 800px;
+  height: 430px;
   background-size: cover;
   background-position: center;
   will-change: opacity;
@@ -28,7 +28,7 @@ const Images = () => {
     leave: { opacity: 0 },
     config: config.molasses,
   })
-  useEffect(() => void setInterval(() => set(state => (state + 1) % 4), 3000), [])
+  useEffect(() => void setInterval(() => set(state => (state + 1) % 4), 8000), [])
   return transitions.map(({ item, props, key }) => (
     <MyImg
       key={key}
