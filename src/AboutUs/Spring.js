@@ -18,6 +18,19 @@ const MyImg = styled(animated.div)`
   will-change: opacity;
   position: absolute;
   border: 1px solid black;
+
+  @media (max-width: 900px) {
+    width: 600px;  
+    height: 400px;
+  }
+  @media (max-width: 630px) {
+    width: 400px;  
+    height: 300px;
+  }
+  @media (max-width: 430px) {
+    width: 300px;  
+    height: 200px;
+  }
 `
 
 const Images = () => {
