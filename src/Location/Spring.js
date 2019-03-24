@@ -11,6 +11,7 @@ import styled from 'styled-components'
 ]
 
 const MyImg = styled(animated.div)`
+  width: 800px;
   height: 430px;
   background-size: cover;
   background-position: center;
