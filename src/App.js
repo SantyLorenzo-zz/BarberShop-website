@@ -12,7 +12,6 @@ import Footer from './Footer/Footer'
 const Wrapper = styled.div`
   width: 100%;
   height: 100%;
-  
 `
 const Space = styled.div`
   width: 100%;
