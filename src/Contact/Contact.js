@@ -1,17 +1,17 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Parallax } from "react-parallax";
 
 import { Title, Line, LinesContainer, Square } from '../AboutUs/Description'
-import Texture from './scissors.jpg'
+import Image from './scissors.jpg'
 
 const Wrapper = styled.div`
   width: 100%;
-  height: 500px
+  height: 500px;
   display: flex;
   flex-direction: column
   align-items: center;
   justify-content: space-around;
-  background: url(${Texture});
   background-size: cover;
 `
 const MyTitle = styled(Title)`
@@ -36,26 +36,28 @@ const Method = styled.div`
   color: #d6d6d6;
 `
 
-
 export default function Contact() {
   return (
-    <Wrapper>
-      <MyTitle>CONTACT US</MyTitle>
-      <LinesContainer>
-        <Line />
-        <Square className="fas fa-square-full" />
-        <Line />
-      </LinesContainer>
-      <Container>
-        <Method>
-          <i style={{ marginRight: '25px', color: '#e0a240' }} class="fas fa-phone" />
-          221-3642233
-        </Method>
-        <Method >
-          <i style={{ marginRight: '25px', color: '#e0a240' }} class="fas fa-envelope" />
-            SANTYLORE4@GMAIL.COM
-        </Method>
-      </Container>
-    </Wrapper>
+    <Parallax bgImage={Image} strength={500}>
+      <Wrapper>
+        <MyTitle>CONTACT US</MyTitle>
+        <LinesContainer>
+          <Line />
+          <Square className="fas fa-square-full" />
+          <Line />
+        </LinesContainer>
+        <Container>
+          <Method>
+            <i style={{ marginRight: '25px', color: '#e0a240' }} class="fas fa-phone" />
+            221-3642233
+          </Method>
+          <Method >
+            <i style={{ marginRight: '25px', color: '#e0a240' }} class="fas fa-envelope" />
+              SANTYLORE4@GMAIL.COM
+          </Method>
+        </Container>
+      </Wrapper>
+    </Parallax>
+
   )
 }
