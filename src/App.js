@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-
 import Texture from './AboutUs/texture.png'
 
 import Home from './Home/Home'
@@ -13,6 +12,7 @@ import Footer from './Footer/Footer'
 const Wrapper = styled.div`
   width: 100%;
   height: 100%;
+  
 `
 const Space = styled.div`
   width: 100%;

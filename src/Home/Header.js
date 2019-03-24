@@ -27,6 +27,7 @@ const Menu = styled.ul`
   flex-direction: row;
   display: flex;
   width: 900px;
+  margin: 0;
 
   @media (max-width: 1150px) {
     display: none
