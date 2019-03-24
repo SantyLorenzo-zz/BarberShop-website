@@ -55,7 +55,7 @@ const Item = styled.a`
 
 const IconsContainer = styled.div`
   height: 100px;
-  width: 120px;
+  width: 200px;
   margin-right: 30px;
   display: flex;
   flex-direction: row;
@@ -77,25 +77,16 @@ export default function Header() {
             <Item href='http://localhost:3000/'>HOME</Item>
           </ItemContainer>
           <ItemContainer>
-            <Item href='http://localhost:3000/'>PAGES</Item>
+            <Item href='#About'>ABOUT US</Item>
           </ItemContainer>
           <ItemContainer>
-            <Item href='http://localhost:3000/'>PORTFOLIO</Item>
+            <Item href='#OurWork'>WORK</Item>
           </ItemContainer>
           <ItemContainer>
-            <Item href='http://localhost:3000/'>SINGLE PORTFLIO</Item>
+            <Item href='#Location'>LOCATION</Item>
           </ItemContainer>
           <ItemContainer>
-            <Item href='http://localhost:3000/'>HEADERS</Item>
-          </ItemContainer>
-          <ItemContainer>
-            <Item href='http://localhost:3000/'>JOURNAL</Item>
-          </ItemContainer>
-          <ItemContainer>
-            <Item href='http://localhost:3000/'>SHOP</Item>
-          </ItemContainer>
-          <ItemContainer>
-            <Item href='http://localhost:3000/'>SHORTCODES</Item>
+            <Item href='http://localhost:3000/'>CONTACT</Item>
           </ItemContainer>
         </Menu>
       </div>

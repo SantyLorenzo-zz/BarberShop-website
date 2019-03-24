@@ -11,8 +11,8 @@ import styled from 'styled-components'
 ]
 
 const MyImg = styled(animated.div)`
-  width: 40%;
-  height: 45%;
+  width: 800px;
+  height: 450px;
   background-size: cover;
   background-position: center;
   will-change: opacity;

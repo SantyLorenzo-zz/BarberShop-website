@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-  width: 50%;
+  width: 70%;
   height: 350px;
   display: flex;
   flex-direction: column;

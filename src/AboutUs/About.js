@@ -7,7 +7,6 @@ import texture from './texture.png'
 
 
 const Wrapper = styled.div`
-  padding-top: 20px;
   width: 100%;
   height: 100vh;
   display: flex;

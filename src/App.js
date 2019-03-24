@@ -14,7 +14,7 @@ const Wrapper = styled.div`
 `
 const Space = styled.div`
   width: 100%;
-  height: 150px;
+  height: 50px;
   background: url(${Texture});
   background-repeat: repeat;
   display: flex;
@@ -26,10 +26,11 @@ export default function App() {
   return (
     <Wrapper>
       <Home />
+      <Space id='About' />
       <About />
-      <Space />
+      <Space  id='OurWork' />
       <OurWork />
-      <Space />
+      <Space id='Location' />
       <Location />
     </Wrapper>
   )
