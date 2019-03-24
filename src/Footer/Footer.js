@@ -11,7 +11,6 @@ const Wrapper = styled.div`
   width: 100%;
   display: flex;
   flex-flow: wrap;
-  align-items: center;
   justify-content: space-evenly;
   background: url(${texture})
 `

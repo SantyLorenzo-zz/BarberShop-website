@@ -5,7 +5,7 @@ import { Title, SubTitle, Line, LinesContainer, Square } from '../AboutUs/Descri
 
 const Wrapper = styled.div`
   width: 100%;
-  height: 25vh;
+  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;  
@@ -13,11 +13,14 @@ const Wrapper = styled.div`
   text-align: center;
   margin-bottom: 30px;
 ` 
+const MyTitle = styled(Title)`
+  width: 300px;
+`
 
 export default function DescriptionSection() {
   return (
     <Wrapper>
-      <Title>OUR WORK</Title>
+      <MyTitle>OUR WORK</MyTitle>
       <LinesContainer>
         <Line />
         <Square className="fas fa-square-full" />

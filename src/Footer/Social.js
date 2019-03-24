@@ -5,10 +5,11 @@ import { Title } from '../AboutUs/Description'
 
 const Wrapper = styled.div`
   width: 400px;
-  height: 300px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 30px 0;
 `
 const MyTitle = styled(Title)`
   width: 250px;

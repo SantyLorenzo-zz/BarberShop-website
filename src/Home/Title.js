@@ -37,6 +37,14 @@ const Title = styled.div`
   height: 90px;
   color: #d6d6d6;
   padding: 0 40px;
+
+  @media (max-width: 450px) {
+    width: 200px;
+  }
+  @media (max-width: 340px) {
+    width: 150px;
+    font-size: 40px;
+  }
 `
 
 

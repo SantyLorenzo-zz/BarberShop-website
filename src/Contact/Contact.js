@@ -34,6 +34,16 @@ const Method = styled.div`
   font-weight: 300;
   letter-spacing: 5px;
   color: #d6d6d6;
+
+  @media (max-width: 600px) {
+    font-size: 20px;
+  }
+  @media (max-width: 430px) {
+    font-size: 15px;
+  }
+  @media (max-width: 350px) {
+    font-size: 10px;
+  }
 `
 
 export default function Contact() {
@@ -51,7 +61,7 @@ export default function Contact() {
             <i style={{ marginRight: '25px', color: '#e0a240' }} class="fas fa-phone" />
             221-3642233
           </Method>
-          <Method >
+          <Method>
             <i style={{ marginRight: '25px', color: '#e0a240' }} class="fas fa-envelope" />
               SANTYLORE4@GMAIL.COM
           </Method>

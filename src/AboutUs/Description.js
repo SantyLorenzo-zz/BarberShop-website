@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.div`
   width: 70%;
-  height: 350px;
+  height: 450px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -19,6 +19,20 @@ export const Title = styled.h2`
   color: #222222;
   letter-spacing: 5px;
   border-bottom: 1px solid #222222;
+`
+const MyTitle = styled.h2`
+  width: 400px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  color: #222222;
+  letter-spacing: 5px;
+  border-bottom: 1px solid #222222;
+
+  @media (max-width: 600px) {
+    font-size: 28px;
+    width: 330px;
+  }
 `
 export const SubTitle = styled.span`
   font-family: 'Crimson Text', serif;
@@ -54,7 +68,7 @@ const Description = styled.span`
 export default function DescriptionSection() {
   return (
     <Wrapper>
-      <Title>WE ARE STYLISH</Title>
+      <MyTitle>WE ARE STYLISH</MyTitle>
       <SubTitle>A beautiful responsive multi-purpose wordpress theme</SubTitle>
       <LinesContainer>
         <Line />

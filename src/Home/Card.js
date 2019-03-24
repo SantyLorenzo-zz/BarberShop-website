@@ -13,11 +13,19 @@ const CardComponent = styled(animated.div)`
   display: flex;
   align-items: center;
   justify-content: center;
+  background: transparent;
 
   &:hover {
     box-shadow: 0px 10px 80px 10px rgba(255, 255, 255, 0.2);
   }
-`
+  @media (max-width: 970px) {
+    width: 700px;
+  }
+  @media (max-width: 820px) {
+    width: 600px;
+  }
+`  
+
 
 const calc = (x, y) => [-(y - window.innerHeight / 2) / 170, (x - window.innerWidth / 2) / 170, 1.1]
 const trans = (x, y, s) => `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`

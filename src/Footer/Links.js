@@ -7,7 +7,7 @@ import { Item } from '../Home/Header'
 const Wrapper = styled.div`
   margin: 30px 0;
   width: 400px;
-  height: 250px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
