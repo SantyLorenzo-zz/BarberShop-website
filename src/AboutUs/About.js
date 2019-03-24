@@ -2,13 +2,12 @@ import React from 'react'
 import styled from 'styled-components'
 
 import DescriptionSection from './Description'
-import Images from './Images'
+import Image from './Image'
 import texture from './texture.png'
 
 
 const Wrapper = styled.div`
   width: 100%;
-  height: 100vh;
   display: flex;
   flex-direction: column
   justify-content: space-between;
@@ -28,7 +27,7 @@ export default function About() {
     <Wrapper>
       <DescriptionSection />
       <CardsContainer>
-        <Images />
+        <Image />
       </CardsContainer>
     </Wrapper>
   )
