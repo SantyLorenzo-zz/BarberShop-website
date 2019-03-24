@@ -6,11 +6,15 @@ import { ImgContainer, Img } from '../OurWork/Images'
 
 const Wrapper = styled.div`
   margin: 50px 0;
-  width: 400px;
+  width: 350px;
   height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media (max-width: 400px) {
+    width: 30px;
+  }
 `
 const MyTitle = styled(Title)`
   font-size: 25px;
@@ -19,6 +23,12 @@ const MyTitle = styled(Title)`
   text-align: center;
   color: black;
   border-bottom: 1px solid black;
+
+  @media (max-width: 350px) {
+    width: 280px;
+    font-size: 19px;
+
+  }
 `
 const MyImg = styled(Img)`
   width: 85px;
@@ -26,7 +36,11 @@ const MyImg = styled(Img)`
   border: none;
 `
 const Container = styled(ImgContainer)`
-  width: 450px;
+  width: 350px;
+
+  @media (max-width: 350px) {
+    width: 300px;
+  }
 `
 
 

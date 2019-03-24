@@ -10,6 +10,11 @@ const Wrapper = styled.section`
   height: 280px;
   color: white;
   width: 400px;
+
+  @media (max-width: 400px) {
+    width: 300px;
+  }
+  
 `
 const SubTitleLight = styled.p`
   font-weight: 400;
