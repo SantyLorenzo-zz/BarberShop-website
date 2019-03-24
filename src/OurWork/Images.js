@@ -7,14 +7,14 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
 ` 
-const ImgContainer = styled.section`
+export const ImgContainer = styled.section`
   width: 100%;
   display flex;
   flex-direction: row;
   flex-flow: wrap;
   justify-content: center;
 `
-const Img = styled.div`
+export const Img = styled.div`
   width: 600px;
   height: 380px
   margin: 15px;

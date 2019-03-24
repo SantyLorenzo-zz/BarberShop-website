@@ -40,7 +40,7 @@ const Icon = styled.div`
 `
 
 
-const Item = styled.a`
+export const Item = styled.a`
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   font-weight: 400;
