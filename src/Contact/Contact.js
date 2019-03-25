@@ -63,7 +63,7 @@ export default function Contact() {
           </Method>
           <Method>
             <i style={{ marginRight: '25px', color: '#e0a240' }} class="fas fa-envelope" />
-              SANTYLORE4@GMAIL.COM
+              AWESOMEWEBSITESLP@GMAIL.COM
           </Method>
         </Container>
       </Wrapper>

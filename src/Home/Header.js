@@ -35,14 +35,6 @@ const Menu = styled.ul`
 `
 const ItemContainer= styled.li``
 
-// const Icon = styled.div`
-//   width: 30%;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-// `
-
-
 export const Item = styled.a`
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
@@ -58,7 +50,7 @@ export const Item = styled.a`
 
 const Container = styled.div`
   height: 100%;
-  width: 1500px;
+  width: 1400px;
   display: flex;
   flex-direction: row;
   align-items: center;

@@ -57,7 +57,7 @@ export default function theTitle() {
   return(
     <Wrapper>
       <SubTitleLight className="animated fadeInDown delay-1s">TRUE BARBERS</SubTitleLight>
-      <Title className="animated fadeInUp ">STYLISH</Title>
+      <Title className="animated fadeInUp ">BARBERS</Title>
       <SubTitleItalic className="animated fadeInDown delay-1s">The Best Or Nothing</SubTitleItalic>
     </Wrapper>
   )
