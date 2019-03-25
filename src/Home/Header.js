@@ -83,17 +83,17 @@ const Container = styled.div`
 
 export default function Header() {
   return(
-    <Wrapper>
+    <Wrapper id='Home'>
       <Container>
         <Logo>
-          <a href='http://localhost:3000/'>
+          <a href='https://websites1.netlify.com/'>
             <img src={logo} alt='logo'/>
           </a>
         </Logo>
         <div>
           <Menu>
             <ItemContainer>
-              <Item href='http://localhost:3000/'>HOME</Item>
+              <Item href='#Home'>HOME</Item>
             </ItemContainer>
             <ItemContainer>
               <Item href='#About'>ABOUT US</Item>

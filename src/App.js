@@ -26,7 +26,7 @@ const Space = styled.div`
 export default function App() {
   return (
     <Wrapper>
-      <Home id='Home'/>
+      <Home />
       <Space id='About' />
       <About />
       <Space  id='OurWork' />

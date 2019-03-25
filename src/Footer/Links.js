@@ -45,7 +45,7 @@ export default function Links() {
         </Item>
       </LinkContainer>
       <LinkContainer>
-        <Item style={{ color: 'black' }} href='#work'>
+        <Item style={{ color: 'black' }} href='#OurWork'>
           <i style={{ marginRight: '5px', color: '#e0a240' }} class="fas fa-chevron-right" />
           WORK
         </Item>
