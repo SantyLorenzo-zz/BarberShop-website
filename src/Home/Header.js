@@ -58,7 +58,7 @@ export const Item = styled.a`
 
 const Container = styled.div`
   height: 100%;
-  width: 1400px;
+  width: 1500px;
   display: flex;
   flex-direction: row;
   align-items: center;
