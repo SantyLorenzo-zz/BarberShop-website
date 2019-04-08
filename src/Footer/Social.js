@@ -57,13 +57,13 @@ export default function Social() {
         <IconContainer href='https://www.facebook.com/'>
           <Icon className="fab fa-facebook-f fa-2x" />
         </IconContainer>
-        <IconContainer href='https://www.facebook.com/'>
+        <IconContainer href='https://www.instagram.com/'>
           <Icon className="fab fa-instagram fa-2x" />
         </IconContainer>
-        <IconContainer href='https://www.facebook.com/'>
+        <IconContainer href='https://twitter.com/'>
           <Icon className="fab fa-twitter fa-2x" />
         </IconContainer>
-        <IconContainer href='https://www.facebook.com/'>
+        <IconContainer href='https://www.linkedin.com/'>
           <Icon className="fab fa-linkedin fa-2x" />
         </IconContainer>
       </Container>
